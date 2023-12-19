@@ -1,6 +1,6 @@
 import { useState } from "react";
 import yoga from "./assets/yoga.webp";
-import axiosConfig from "./utils/axiosConfig";
+import axiosClient from "./utils/axiosConfig";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -13,7 +13,7 @@ function App() {
 
     try {
       setLoading(true);
-      const response = await axiosConfig.post("/users", {
+      const response = await axiosClient.post("/users", {
         name: data.name,
         email: data.email,
         age: data.age,
