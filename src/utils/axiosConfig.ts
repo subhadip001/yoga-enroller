@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-  baseURL: "http://localhost:8000",
-  
+  baseURL: "https://yoga-enroller-eb3lbyeafa-em.a.run.app",
 });
 
 export default axiosClient;

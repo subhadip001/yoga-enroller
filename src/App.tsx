@@ -71,8 +71,12 @@ function App() {
       setLoading("Payment Successful");
     } catch (error) {
       console.log(error);
-      console.log((error as any).response.data);
-      setError((error as any).response.data.detail);
+      setError((error as any).response?.data?.detail ?? (error as any).message);
+      if ((error as any)?.code === "ERR_NETWORK") {
+        setError(
+          "Network error due to CORS problem, Please try using localhost base url or disabling browser CORS."
+        );
+      }
     } finally {
       setTimeout(() => {
         setLoading("");
