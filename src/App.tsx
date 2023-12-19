@@ -91,9 +91,9 @@ function App() {
           />
         </div>
         <div className="right h-full absolute sm:relative z-50 w-[95%] sm:w-[55%] p-5">
-          <span className="text-3xl md:text-5xl font-semibold">
+          <h1 className="text-3xl text-center md:text-5xl font-semibold">
             YOGA ENROLLER
-          </span>
+          </h1>
           <form
             onSubmit={handleFormSubmit}
             className="w-full flex flex-col rounded-md shadow-md p-6"
