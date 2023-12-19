@@ -31,7 +31,7 @@ function App() {
       <section className="h-screen relative overflow-hidden flex flex-col sm:flex-row">
         <div className="left sm:w-[45%] h-full absolute sm:relative">
           <img
-            src={""}
+            src={yoga}
             alt="yoga-enroller"
             className="w-full h-full object-cover object-center"
           />
@@ -86,7 +86,7 @@ function App() {
                 className="bg-white text-[#000] px-2 py-1 rounded-md"
                 type="submit"
               >
-                Enroll
+                {loading ? "Loading..." : "Submit"}
               </button>
             </div>
           </form>
