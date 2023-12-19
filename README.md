@@ -2,9 +2,8 @@
 
 Link for the API repository: ["https://github.com/subhadip001/yoga-enroller-api"]
 
-
 ## Description
-This is a simple form to enroll for yoga classes. It is built with React and Typescript. The form data is sent to the API and stored in a SQL database. The API repository is linked above. This is deployed on Vercel. The link is given in description of the Repo.
+This is a simple Responsive form to enroll for yoga classes. It is built with React and Typescript. The form data is sent to the API and stored in a SQL database. The API repository is linked above. This is deployed on Vercel. The link is given in description of the Repo.
 
 ## Tech Stack
 
