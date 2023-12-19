@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import yoga from "./assets/yoga.webp";
 import axiosConfig from "./utils/axiosConfig";
 
