@@ -1,5 +1,4 @@
-
-import "./App.css";
+import yoga from "./assets/yoga.webp";
 
 function App() {
   return (
@@ -7,7 +6,7 @@ function App() {
       <section className="h-screen overflow-hidden flex">
         <div className="left w-[45%]">
           <img
-            src="https://ideogram.ai/api/images/direct/jw2iImf5QjSLidendb1p_A.jpg"
+            src={yoga}
             alt="yoga-enroller"
             className="w-full h-full object-cover object-center"  
           />
