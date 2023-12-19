@@ -70,3 +70,6 @@ yarn dev
 3. Changing of the Batch by the user can be added in the Dashboard
 4. Add a Admin Dashboard to view the status of enrollment of all the users
 5. UI can be improved by adding animations and transitions
+6. Adding CI/CD for deployment of the docker image on pushing to dockerhub to Cloudrun
+7. Removing the CORS problem permanently by making the api in other tech stack like nodejs etc. Due to limited time i have not transferred the api to other stack after finding the error caused by CORS.
+8. If Someone can find way to solve the CORS problem in Google Cloudrun then please Contribute.
